@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+       <tiles-definitions>
+       
+       		<definition name="beforeLoginLayout" template="/WEB-INF/view/beforeLoginLayout/beforeLoginLayout.jsp">
+       			<put-attribute name="title" value="Main Template"></put-attribute>
+       			<put-attribute name="header" value="/WEB-INF/view/beforeLoginLayout/header.jsp"></put-attribute>
+       			<put-attribute name="body" value=""></put-attribute>
+       			<put-attribute name="footer" value="/WEB-INF/view/beforeLoginLayout/footer.jsp"></put-attribute>
+       		
+       		</definition>
+       		
+       		<definition name="home" extends="beforeLoginLayout">
+       			<put-attribute name="title" value="Home Page"></put-attribute>
+       			<put-attribute value="/WEB-INF/view/home.jsp" name="body"></put-attribute>
+       		</definition>
+       		
+       		<definition name="signin" extends="beforeLoginLayout">
+       			<put-attribute name="title" value="Signin Page"></put-attribute>
+       			<put-attribute value="/WEB-INF/view/signin.jsp" name="body"></put-attribute>
+       		</definition>
+       		
+       		<definition name="signup" extends="beforeLoginLayout">
+       			<put-attribute name="title" value="Signup  Page"></put-attribute>
+       			<put-attribute value="/WEB-INF/view/signup.jsp" name="body"></put-attribute>
+       		</definition>
+       		
+       		<definition name="dashboard" extends="beforeLoginLayout">
+       			<put-attribute name="title" value="Dashboard " />
+       			<put-attribute name="body" value="/WEB-INF/view/page/dashboard.jsp" />
+       		</definition>
+       		
+       		<definition name="Error" extends="beforeLoginLayout">
+       			<put-attribute name="title" value="Error " />
+       			<put-attribute value="/WEB-INF/view/Errors/error.jsp" name="body" />
+       		</definition>
+       		
+       </tiles-definitions>
