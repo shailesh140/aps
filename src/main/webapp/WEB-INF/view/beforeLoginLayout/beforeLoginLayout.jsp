@@ -16,12 +16,12 @@
 	   	<!-- JQuery CDN -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	</head>
-<body>
-	<div class="m-0 p-0">
+	<body>
 		<tiles:insertAttribute name="header" />
 		<tiles:insertAttribute name="body" />
-		<tiles:insertAttribute name="footer" />
-	</div>
+		<%--<tiles:insertAttribute name="footer" /> --%>
+		
+		
 	
 <!-- Boostrap JS CDN -->
 <!--     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->

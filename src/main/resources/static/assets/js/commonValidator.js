@@ -7,12 +7,15 @@ function validateForm(formField){
 		if($.trim($(this).val())==''){
 			$(this).addClass("error-input")
 			$(this).after("<small style='color:red'>Please Fill this field</small><br>");
-			 flage=false;
+			console.log($(this).attr("name"));
+			flage=false;
 		}	
 	});
 	return flage;
 	
 }
+
+
 
 
 

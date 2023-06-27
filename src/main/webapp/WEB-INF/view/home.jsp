@@ -1,6 +1,4 @@
-<div class="container-fuid">
-	<div class="row bodyPage">
-		<div class="col-12 p-0 m-0">
+	
 		
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
@@ -74,24 +72,19 @@
 			</div>
 			
 			
-			
-			</div>
-			
-
-			
-			
-		</div>
-			<div id="about" class="mt-5 p-4">
+<div class="container-fluid">	
+	<div class="row">
+	<div id="about" class="mt-5 p-4">
 			<div class="card p-4">
 				<div class="jumbotron text-center">
 					<h1>Introduction</h1>
 					
 				</div>
-				<div class="row">
+				<div class="row d-flex">
 					<div class="col-6">
 						<img alt="" src="<%=request.getContextPath() %>/assets/imag/slider/a1.jpg">
 					</div>
-					<div class="col-6 p-4">
+					<div class="col-6">
 						Appraisal Tracking System has main reason and vision to track the performance of employee after 6 month or company requirement. This system helps the
 						the clients which add manage employee. In this system you can easily manage your company require users. you can also give credintial of user.<br><br>
 						There are a several techniques to get the performance of employees. but in modern there are 5 effective techniques are available
@@ -112,6 +105,9 @@
 				</div>
 		
 			</div>
-		</div>
 		
 		
+</div>
+	
+	</div>
+			
