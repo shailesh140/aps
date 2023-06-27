@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 @SpringBootApplication
 @ComponentScan("com.aps.app.*")
 @EnableJpaRepositories("com.aps.app.*")
-@EntityScan("com.aps.app.*")
+@EntityScan("com.aps.app.*") 
 public class ApsApplication {
 
 	public static void main(String[] args) throws IOException {
